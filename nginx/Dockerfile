@@ -10,5 +10,5 @@ COPY    nginx/login.css /usr/share/nginx/html/
 COPY    nginx/register.css /usr/share/nginx/html/
 COPY    nginx/504.html /usr/share/nginx/html/
 ADD     nginx/temp /usr/share/nginx/html/
-LABEL   tag="harbor.chaihy.xyz/test/nginx:latest"
+
 EXPOSE  80
