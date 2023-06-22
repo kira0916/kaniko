@@ -10,6 +10,5 @@ COPY    nginx/login.css /usr/share/nginx/html/
 COPY    nginx/register.css /usr/share/nginx/html/
 COPY    nginx/504.html /usr/share/nginx/html/
 ADD     nginx/temp /usr/share/nginx/html/
-RUN     apk add curl
 
 EXPOSE  80
